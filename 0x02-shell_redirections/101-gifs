@@ -1,0 +1,2 @@
+#!/bin/bash
+for file in $(find . -type f -iname *.gif); do echo "${file%.*}"; done | sort -f
